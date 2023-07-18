@@ -1,6 +1,8 @@
 /* common styles */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 * {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -24,7 +26,9 @@ nav {
     justify-content: space-between;
 }
 .legend {
-
+    color: var(--primary-text-color);
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 .menu-container ul {
     display: flex;
@@ -40,6 +44,5 @@ nav {
 .menu-container li a {
     text-decoration: none;
     color: var(--primary-text-color);
-    font-size: 1rem;
     font-weight: 600;
 }
